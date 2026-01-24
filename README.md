@@ -86,4 +86,4 @@ Para assegurar que nenhum erro de lógica comprometa a aplicação, adoto um flu
 * 📊 **Mathematics & Logic:** *All core logic is validated via mathematical models.*
 
 ---
-developed by [Seu Nome/Username] - 2026
+developed by Kauan Oliveira- 2026
