@@ -76,14 +76,33 @@ Para assegurar que nenhum erro de lógica comprometa a aplicação, adoto um flu
 
 ---
 
-## 📩 Contato & Consultoria / Contact
 
+## 👨‍💻 Author & Engineering Mindset | Autoria e Engenharia
+**Kauan Oliveira** - *Systems & Security Engineer*
+
+![PHP Security](https://img.shields.io/badge/PHP-Hardened-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![OWASP Mitigation](https://img.shields.io/badge/OWASP-Mitigation-black?style=for-the-badge)
+![Secure Flow](https://img.shields.io/badge/Secure-Flow-red?style=for-the-badge)
+
+**PT-BR:** Implementação de referência para mitigar o OWASP Top 10 diretamente no motor da aplicação. Toda a lógica de sanitização e proteção de cabeçalhos foi desenhada em papel A4 para garantir um fluxo de dados blindado, independente de defesas externas como WAFs.
+
+**EN-US:** Reference implementation to mitigate the OWASP Top 10 directly in the application engine. All sanitization and header protection logic was designed on A4 paper to ensure a shielded data flow, independent of external defenses like WAFs.
+
+### 🎯 Objective
+Atualmente focado em **Freelance de Alta Performance** e **Pesquisa em Bug Bounty**. 
+---
+## 📩 Contato & Consultoria / Contact
 **Precisa blindar seu sistema ou de uma auditoria de segurança?**
 **Need to harden your system or a security audit?**
+- **LinkedIn:** [Kauan Oliveira](https://www.linkedin.com/in/kauan-oliveira-324264378/)
+- **Bug Bounty Portfolio:** [HackerOne/Profile]
+- **Professional Email:** [Seu Email]
 
+**Developed in 2026 by Kauan Oliveira / Feito em 2026 por Kauan Oliveira**
+---
 * 🛡️ **Bug Bounty Portfolio:** [HackerOne/Profile](#)
 * 💼 **Freelance Inquiries:** [Consultancy/Email](#)
 * 📊 **Mathematics & Logic:** *All core logic is validated via mathematical models.*
 
 ---
-developed by Kauan Oliveira- 2026
+*Developed in 2026 by Kauan Oliveira / Feito em 2026 por Kauan Oliveira*
