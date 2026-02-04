@@ -21,54 +21,53 @@
 ## 🎯 Direcionamento / Target Audience
 
 ### 🎓 Fins Acadêmicos (Academic Research)
-Uma implementação prática para o estudo de **Arquitetura de Sistemas** e **Segurança por Design**. Ideal para entender o ciclo de vida de uma requisição e a aplicação de lógica determinística no tratamento de dados.
+**PT:** Uma implementação prática para o estudo de **Arquitetura de Sistemas**. Ideal para entender o ciclo de vida de uma requisição e a aplicação de lógica determinística no tratamento de dados.
+**EN:** A practical implementation for **Systems Architecture** studies. Ideal for understanding the request lifecycle and deterministic logic in data handling.
 
 ### 💼 Clientes & Consultoria (Business Impact)
-Foco em **Continuidade de Negócio**. Entrego soluções para modernização de sistemas legados, garantindo que a aplicação seja robusta, rápida e imune a falhas lógicas comuns, reduzindo custos de infraestrutura.
+**PT:** Foco em **Continuidade de Negócio**. Entrego soluções para modernização de sistemas, garantindo que a aplicação seja robusta, rápida e imune a falhas lógicas, reduzindo custos de infraestrutura.
+**EN:** Focus on **Business Continuity**. I deliver solutions for system modernization, ensuring the app is robust, fast, and immune to logic flaws, reducing infrastructure costs.
 
 ### 🚀 Recrutadores (Engineering Excellence)
-Demonstração de domínio profundo do ecossistema PHP. Este portfólio evidencia competências em **Clean Code**, criptografia de ponta, gestão de sessões e conformidade com boas práticas globais de desenvolvimento.
+**PT:** Demonstração de domínio profundo do ecossistema PHP. Este portfólio evidencia competências em **Clean Code**, criptografia, gestão de sessões e conformidade com boas práticas globais.
+**EN:** Demonstration of deep PHP ecosystem mastery. This portfolio highlights skills in **Clean Code**, cryptography, session management, and compliance with global best practices.
 
 ---
 
 ## 🛠️ Pilares de Engenharia / Core Engineering Pillars
 
-| Feature | Descrição Técnica | Benefício para o Negócio |
+| Feature | Descrição Técnica (PT) | Technical Description (EN) |
 | :--- | :--- | :--- |
-| **Data Integrity** | Tipagem estrita e validação rigorosa de inputs. | Redução de erros em produção e dados confiáveis. |
-| **Session Hardening** | Gestão de estado com foco em persistência e proteção. | Segurança da identidade do usuário final. |
-| **Clean Architecture** | Separação clara entre lógica de negócio e infraestrutura. | Código fácil de manter e evoluir a longo prazo. |
-| **Modern Crypto** | Abstração para criptografia simétrica AES-256-GCM. | Proteção de ativos digitais e dados sensíveis. |
-| **Performance** | Zero overhead de terceiros (Vanilla PHP). | Menor consumo de servidor e resposta ultra rápida. |
+| **Data Integrity** | Tipagem estrita e validação de inputs. | Strict typing and input validation. |
+| **Session Hardening** | Gestão de estado ultra-segura. | Ultra-secure state management. |
+| **Clean Architecture** | Separação entre lógica e infraestrutura. | Decoupled logic and infrastructure. |
+| **Modern Crypto** | Wrapper para AES-256-GCM. | Wrapper for AES-256-GCM. |
+| **Performance** | Zero overhead (Vanilla PHP). | Zero overhead (Vanilla PHP). |
 
 ---
 
-## 📐 Metodologia de Desenvolvimento
+## 📐 Metodologia / Methodology
 
-Para garantir que o software seja um ativo de valor, sigo diretrizes de alta engenharia:
-
-1. **Zero-Framework Dependency:** Controle total sobre o fluxo de dados, eliminando vulnerabilidades ocultas e dívidas técnicas de atualização.
-2. **Deny-by-Default:** Princípio de segurança onde apenas dados explicitamente validados são processados pela aplicação.
-3. **Modularidade:** Componentes independentes que podem ser reutilizados em diferentes projetos ou integrados a arquiteturas de microserviços.
+1. **Zero-Framework Dependency:** Controle total sobre o fluxo de dados / *Total control over data flow.*
+2. **Deny-by-Default:** Segurança proativa em todas as camadas / *Proactive security at all layers.*
+3. **Modular Design:** Componentes independentes e reutilizáveis / *Independent and reusable components.*
 
 ---
 
 ## 📂 Estrutura do Projeto / Project Structure
 
-* 📁 **[`/src/Core`](./src/Core):** Motores principais, tratamento de exceções e lógica base.
-* 📁 **[`/src/Security`](./src/Security):** Componentes de criptografia, sanitização e proteção de headers.
-* 📁 **[`/src/Infrastructure`](./src/Infrastructure):** Abstração de banco de dados (PDO) e serviços externos.
-* 📁 **[`/docs`](./docs):** Documentação de arquitetura e guias de implementação.
+* 📁 **[`/src/Core`](./src/Core):** Base do sistema / *System core logic.*
+* 📁 **[`/src/Security`](./src/Security):** Componentes de proteção / *Protection components.*
+* 📁 **[`/src/Infrastructure`](./src/Infrastructure):** Banco de dados e serviços / *DB and services.*
+* 📁 **[`/docs`](./docs):** Documentação técnica / *Technical documentation.*
 
 ---
 
 ## 👨‍💻 Autor / Author
 **Kauan Oliveira** - *Backend Software Engineer*
 
-Engenheiro de Sistemas focado em construir soluções robustas e seguras. Minha abordagem une a teoria acadêmica com a necessidade pragmática do mercado.
-
 - **LinkedIn:** [Kauan Oliveira](https://www.linkedin.com/in/kauan-oliveira-324264378/)
-- **Email Profissional:** [Seu Email]
+- **Email:** [Seu Email]
 
 ---
 *Developed in 2026 by Kauan Oliveira*
