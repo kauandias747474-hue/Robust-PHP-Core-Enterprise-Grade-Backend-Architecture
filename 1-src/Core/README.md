@@ -1,15 +1,16 @@
 # 🧠 Core System Logic
 
-**PT-BR:** O coração da aplicação. Esta camada é responsável pelo ciclo de vida da requisição, orquestração do Kernel e regras de negócio puras. É projetada para ser independente de qualquer driver externo.
-**EN-US:** The heart of the application. This layer is responsible for the request lifecycle, Kernel orchestration, and pure business rules. It is designed to be independent of any external drivers.
+**PT-BR:** O coração da aplicação. Esta camada é responsável pelo ciclo de vida da requisição, orquestração do Kernel e regras de negócio puras.
+**EN-US:** The heart of the application. This layer is responsible for the request lifecycle, Kernel orchestration, and pure business rules.
 
 ---
 
-## 🛠️ Componentes / Components
+## 🛠️ Componentes de Engenharia / Engineering Components
 
-1. **Kernel.php:** Ponto de entrada para processamento e inicialização do sistema.
-2. **Domain:** Entidades e regras de negócio determinísticas.
-3. **Exceptions:** Hierarquia de erros customizada para falhas de lógica e runtime.
-4. **Validation:** Motores de validação de tipos e integridade de dados.
+1. **Dependency Injection Container:** Gestão de instâncias e inversão de controle (PSR-11).
+2. **Event Dispatcher:** Desacoplamento de processos via eventos determinísticos.
+3. **Command Bus:** Separação entre intenção de ação (Command) e execução (Handler).
+4. **Strict Entity Hydrator:** Transformação de inputs brutos em objetos de domínio tipados.
+5. **Response Factory:** Padronização rigorosa de saídas (JSON/HTML) e HTTP status codes.
 
-> **Design Note:** "Keep the Core pure." — Sem dependências de I/O ou infraestrutura aqui.
+> **Design Note:** Esta camada é agnóstica a drivers externos. Toda lógica aqui é determinística.
