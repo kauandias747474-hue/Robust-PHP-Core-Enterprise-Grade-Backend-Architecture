@@ -1,15 +1,14 @@
 # ⚙️ Infrastructure & I/O
 
-**PT-BR:** Camada de saída e persistência. Aqui o sistema conversa com o mundo externo: bancos de dados, APIs de terceiros e sistemas de arquivos.
-**EN-US:** Output and persistence layer. This is where the system communicates with the external world: databases, third-party APIs, and file systems.
+**PT-BR:** Camada de persistência e comunicação externa. Isola o Core de detalhes tecnológicos como SQL, APIs de terceiros e Cache.
+**EN-US:** Persistence and external communication layer. Isolates the Core from technical details like SQL, third-party APIs, and Cache.
 
 ---
 
-## 📡 Integrações / Integrations
+## 📡 Serviços e Integrações / Services & Integrations
 
-1. **Database Drivers:** Conexões otimizadas via PDO com suporte a transações ACID.
-2. **Repositories:** Abstração da persistência, isolando o Core de detalhes do SQL.
-3. **Services:** Wrappers para serviços externos (E-mail, Loggers, Cloud Storage).
-
----
-*High availability starts with resilient infrastructure.*
+1. **Transaction Manager:** Gestão de transações ACID entre múltiplos repositórios.
+2. **PSR-3 Custom Logger:** Sistema de log multinível com integração para monitoramento externo.
+3. **Fluent Query Builder:** Abstração de SQL para evitar erros de sintaxe e garantir segurança.
+4. **Multi-Driver Cache:** Interface única para suporte a Redis, Memcached ou File System.
+5. **Resilient API Client:** Cliente HTTP com lógica de retry, timeouts e circuit breaker.
