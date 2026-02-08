@@ -1,15 +1,17 @@
 # 📚 Technical Documentation
 
-**PT-BR:** Repositório de conhecimento do projeto. Contém a documentação técnica necessária para manutenção, escala e auditoria do sistema.
-**EN-US:** Project knowledge repository. Contains the technical documentation required for system maintenance, scaling, and auditing.
+**PT-BR:** Central de conhecimento do projeto, contendo definições de arquitetura, contratos de API e guias de governança.
+**EN-US:** Project knowledge hub, containing architectural definitions, API contracts, and governance guides.
 
 ---
 
-## 📂 Conteúdo / Content
+## 📂 Artefatos de Documentação / Documentation Artifacts
 
-* 📁 **[`/diagrams`](./diagrams):** Fluxos de arquitetura e diagramas de classe.
-* 📁 **[`/api`](./api):** Especificações de endpoints e contratos de dados.
-* 📁 **[`/setup`](./setup):** Guias detalhados de deploy e configuração de ambiente.
+1. **OpenAPI Specs:** Especificações detalhadas de contratos de entrada e saída (Endpoints).
+2. **Architecture Decision Records (ADR):** Registro histórico das decisões técnicas do projeto.
+3. **Entity Relationship Diagram (ERD):** Mapeamento visual das entidades e regras de banco.
+4. **Sequence Diagrams:** Visualização técnica do fluxo da requisição do início ao fim.
+5. **Server Hardening Guide:** Guia para configuração segura do ambiente de produção (PHP/Nginx).
 
 ---
-*Documentation is the bridge between code and long-term stability.*
+*Clear documentation is the key to software longevity.*
