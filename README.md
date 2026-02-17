@@ -18,24 +18,12 @@
 
 ---
 
-## 🎯 Direcionamento / Target Audience
-
-### 💼 Clientes & Consultoria (Business Impact)
-**PT:** Foco em **Continuidade de Negócio**. Entrego soluções para modernização de sistemas, garantindo que a aplicação seja robusta, rápida e imune a falhas lógicas, reduzindo custos de infraestrutura.
-**EN:** Focus on **Business Continuity**. I deliver solutions for system modernization, ensuring the app is robust, fast, and immune to logic flaws, reducing infrastructure costs.
-
-### 🚀 Recrutadores (Engineering Excellence)
-**PT:** Demonstração de domínio profundo do ecossistema PHP. Este portfólio evidencia competências em **Clean Code**, criptografia, gestão de sessões e conformidade com boas práticas globais de engenharia de software.
-**EN:** Demonstration of deep PHP ecosystem mastery. This portfolio highlights skills in **Clean Code**, cryptography, session management, and compliance with global software engineering best practices.
-
----
-
 ## 🛠️ Pilares de Engenharia / Core Engineering Pillars
 
 | Feature | Descrição Técnica (PT) | Technical Description (EN) |
 | :--- | :--- | :--- |
 | **Data Integrity** | Tipagem estrita e validação de inputs. | Strict typing and input validation. |
-| **Session Hardening** | Gestão de estado ultra-segura. | Ultra-secure state management. |
+| **Modular Design** | Arquitetura desacoplada e reutilizável. | Decoupled and reusable architecture. |
 | **Clean Architecture** | Separação entre lógica e infraestrutura. | Decoupled logic and infrastructure. |
 | **Modern Crypto** | Wrapper para AES-256-GCM. | Wrapper for AES-256-GCM. |
 | **Performance** | Zero overhead (Vanilla PHP). | Zero overhead (Vanilla PHP). |
@@ -44,14 +32,17 @@
 
 ## 📂 Estrutura do Projeto / Project Structure
 
-A organização segue os princípios de separação de responsabilidades, numerada para facilitar a auditoria técnica e o entendimento do fluxo de dados:
+A organização segue os princípios de separação de responsabilidades (SoC), numerada para facilitar a auditoria e o desenvolvimento modular:
 
-1. 📁 **[`01-kernel-and-autoloader`](./01-kernel-and-autoloader):** Inicialização do sistema, gerenciamento de erros e carregamento automático de classes.
-2. 📁 **[`02-security-and-cryptography`](./02-security-and-cryptography):** Camada de proteção: AES-256-GCM, sanitização de inputs e mitigação de vulnerabilidades (OWASP).
-3. 📁 **[`03-data-persistence-mysql`](./03-data-persistence-mysql):** Abstração de banco de dados via PDO e implementação de Repository Pattern.
-4. 📁 **[`04-business-core-logic`](./04-business-core-logic):** Onde as regras de negócio residem, isoladas de drivers externos e interfaces.
-5. 📁 **[`05-frontend-integration`](./05-frontend-integration):** Ponte de comunicação entre o backend PHP e interfaces de alta performance (Vanilla JS).
-6. 📁 **[`06-api-and-routing`](./06-api-and-routing):** Gestão de endpoints, rotas do sistema e entrega de respostas processadas.
+1. 📁 **[`01-kernel-and-autoloader`](./01-kernel-and-autoloader):** Core do sistema, gerenciamento de erros (Exception Handling) e Autoload dinâmico.
+2. 📁 **[`02-security-and-cryptography`](./02-security-and-cryptography):** Implementações de criptografia AES-256, sanitização e proteção contra ataques comuns.
+3. 📁 **[`03-data-persistence-mysql`](./03-data-persistence-mysql):** Camada de persistência. Abstração PDO, Repository Pattern e gestão de conexões SQL.
+4. 📁 **[`04-business-domain-logic`](./04-business-domain-logic):** O coração da aplicação. Entidades e serviços que definem as regras de negócio.
+5. 📁 **[`05-utility-and-helpers`](./05-utility-and-helpers):** Componentes auxiliares: manipuladores de strings, datas, e ferramentas de log de sistema.
+6. 📁 **[`06-infrastructure-services`](./06-infrastructure-services):** Integração com serviços externos, envio de e-mails, drivers de fila ou sistemas de arquivos.
+7. 📁 **[`07-frontend-integration`](./07-frontend-integration):** Ponte de comunicação entre o backend e interfaces (API JSON ou SSR).
+8. 📁 **[`08-api-and-routing`](./08-api-and-routing):** Controlador de rotas, middlewares e gerenciamento de requisições HTTP.
+9. 📁 **[`09-quality-and-testing`](./09-quality-and-testing):** Suíte de testes unitários e de integração para garantir a estabilidade do código.
 
 ---
 
