@@ -16,7 +16,7 @@ Gerenciar a inicialização do sistema, garantindo que o ambiente esteja configu
 
 ## 🚀 Demonstrações Práticas (PoC)
 
-O diretório `/examples` contém scripts para validar cada pilar do motor:
+O diretório contém scripts para validar cada pilar do motor:
 
 1.  **`AutoLoaderTest.php`**: Valida a detecção e instanciação automática de classes via Namespaces.
 2.  **`SecurityError.php`**: Demonstra o bloqueio de exibição de erros técnicos em ambiente de produção.
