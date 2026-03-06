@@ -10,7 +10,9 @@ Gerenciar a inicialização do sistema, garantindo que o ambiente esteja configu
 * **Autoloading (PSR-4):** Implementação manual de carregamento automático de classes, seguindo os padrões da PHP-FIG para eliminar o uso de `require` manuais.
 * **Exception Handling (Security Shield):** Capturador global de erros que impede a exposição de dados sensíveis do servidor para o usuário final.
 * **Environment Management:** Carregamento de variáveis de configuração via arquivos `.env`, isolando dados sensíveis do código-fonte (12-Factor App).
+* **Padrão PSR-4: Interoperabilidade e organização moderna de arquivos.**
 
+Arquitetura de Frameworks: Lógica de tratamento de erros e gestão de ambiente inspirada em Laravel e Symfony
 ---
 
 ## 🚀 Demonstrações Práticas (PoC)
@@ -20,6 +22,8 @@ O diretório `/examples` contém scripts para validar cada pilar do motor:
 1.  **`AutoLoaderTest.php`**: Valida a detecção e instanciação automática de classes via Namespaces.
 2.  **`SecurityError.php`**: Demonstra o bloqueio de exibição de erros técnicos em ambiente de produção.
 3.  **`ConfigEcho.php`**: Valida a leitura e injeção das configurações do arquivo `.env`.
+
+
 
 ---
 
