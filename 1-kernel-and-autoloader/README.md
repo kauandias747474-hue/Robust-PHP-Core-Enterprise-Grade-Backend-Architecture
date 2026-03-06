@@ -1,7 +1,5 @@
 # 📂 01 - Kernel & Autoloader (Core Engine)
 
-[English Version Below]
-
 ---
 
 ## 🇧🇷 Versão em Português
