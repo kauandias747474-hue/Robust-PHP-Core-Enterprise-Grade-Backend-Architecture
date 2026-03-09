@@ -33,3 +33,24 @@ Este diretório contém os testes de integração para os três pilares principa
 1. Certifique-se de que seu `.env` está configurado.
 2. Execute `php bootstrap.php` para ver a inicialização do kernel.
 3. Verifique a pasta `storage/logs/` para ver exceções interceptadas.
+
+4. 
+---
+
+### 🔧 Framework Compatibility | Compatibilidade de Frameworks
+
+My **Vanilla Core** is designed to be the "Engine Under the Hood." It provides the low-level infrastructure that can power or integrate with:
+
+- **Laravel / Symfony:** Since the Autoloader (120 lines) follows PSR-4, it can manage custom local packages outside of `vendor/`.
+- **Slim Framework / Micro-services:** Perfect for ultra-lightweight APIs where you need the **Security Shield (39 lines)** but don't want the overhead of a full framework.
+- **Legacy Systems (PHP 8.0+):** The **Config Echo (49 lines)** can be dropped into older projects to modernize environment variable management without breaking existing logic.
+
+---
+
+### 🇧🇷 Em Português:
+
+Meu **Vanilla Core** foi desenhado para ser o "Motor sob o Capô". Ele fornece a infraestrutura de baixo nível que pode alimentar ou se integrar com:
+
+- **Laravel / Symfony:** Como o Autoloader (120 linhas) segue a PSR-4, ele pode gerenciar pacotes locais customizados fora da pasta `vendor/`.
+- **Slim Framework / Micro-serviços:** Perfeito para APIs ultra-leves onde você precisa do **Escudo de Segurança (39 linhas)** mas não quer o peso de um framework completo.
+- **Sistemas Legados (PHP 8.0+):** O **Config Echo (49 linhas)** pode ser inserido em projetos antigos para modernizar a gestão de variáveis de ambiente sem quebrar a lógica existente.
