@@ -61,3 +61,10 @@
 
 **PT-BR:** Você pode validar esta camada garantindo que as classes aqui implementam as interfaces da camada `02`. Se você conseguir instanciar um `SqlUserRepository` e passá-lo para um serviço que espera um `IUserRepository`, a integração está perfeita.
 **EN-US:** You can validate this layer by ensuring the classes here implement the interfaces from layer `02`. If you can instantiate a `SqlUserRepository` and pass it to a service expecting an `IUserRepository`, the integration is perfect.
+
+## 🔄 Exemplo de Fluxo / Example Flow
+
+1. **Core** solicita: `userRepository->save($user)` (sem saber como).
+2. **Infrastructure (Esta camada)** recebe o pedido através da implementação `SqlUserRepository`.
+3. **SqlUserRepository** utiliza o `QueryBuilder` e a `MySqlConnection` para executar o SQL.
+4. O dado é persistido no **MySQL**.
